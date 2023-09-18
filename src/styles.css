@@ -5,11 +5,27 @@
 html,
 body {
     height: 100%;
+    width: 100%;
+}
+
+/*
+Servir correctamente una fuente
+*/
+@font-face {
+    font-family: "Moranga Bold";
+    src: url("../src/assets/fonts/moranga-bold.woff");
 }
 
 body {
     margin: 0;
     font-family: Roboto, "Helvetica Neue", sans-serif;
+    /* background: #0F2027;
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); */
+}
+
+font-moranga {
+    font-family: "Moranga Bold", sans-serif;
 }
 
 /* h1, h2, h3, h4, h5 {
